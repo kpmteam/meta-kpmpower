@@ -6,7 +6,7 @@ FILE_NAME = "teleport-v${PV}-linux-arm-bin.tar.gz"
 
 SRC_URI = "https://get.gravitational.com/${FILE_NAME}"
 
-SRC_URI[sha256sum] = "7c02d725e780b8429c835e0c25ed26efbf00e00bcfff4f7a3f3dae10bbb45d0b"
+SRC_URI[sha256sum] = "8df57eceba6a999f2f9853dd18ecdf3d7c117e93adb2e03f18a7e4bc4d1a5960"
 
 S = "${WORKDIR}/teleport"
 
